@@ -1,0 +1,9 @@
+{
+	"name": "puneeth-uat-adf",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "625d96c9-8896-4993-ab31-4e7ef940e142",
+		"tenantId": "4e6294d8-d7a5-4a43-9e36-913cf995022b"
+	}
+}
