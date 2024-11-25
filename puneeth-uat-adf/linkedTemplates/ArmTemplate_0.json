@@ -21,10 +21,27 @@
 					{
 						"name": "Wait1",
 						"type": "Wait",
-						"dependsOn": [],
+						"dependsOn": [
+							{
+								"activity": "Fail",
+								"dependencyConditions": [
+									"Succeeded"
+								]
+							}
+						],
 						"userProperties": [],
 						"typeProperties": {
 							"waitTimeInSeconds": 1
+						}
+					},
+					{
+						"name": "Fail",
+						"type": "Fail",
+						"dependsOn": [],
+						"userProperties": [],
+						"typeProperties": {
+							"message": "Added Faile",
+							"errorCode": "Added Faile"
 						}
 					}
 				],
